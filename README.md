@@ -82,3 +82,9 @@ PSU 36 V ─ XT60 ─ fuse ─ ideal diode ─┬─ main FET ──────
 **Ordering notes:** 2 layers, 1.6 mm, 2 oz outer copper, HASL lead-free. The fuse insert (Littelfuse 0997025.WXN) and the off-board brake resistor are not placed by the assembler. J9 and J10 are solder pads for the resistor leads. The IRFB4110 brake FET needs a heatsink.
 
 More about the project: [angeloreyes-afk.github.io/portfolio](https://angeloreyes-afk.github.io/portfolio/)
+
+## License
+
+The hardware design files are licensed under the [CERN Open Hardware Licence Version 2 – Strongly Reciprocal](LICENSE) (CERN-OHL-S-2.0). If you make or share a modified version, you must publish your modified design files under the same licence.
+
+Source location: <https://github.com/ANGELOREYES-afk/vla-arm-power-board>
