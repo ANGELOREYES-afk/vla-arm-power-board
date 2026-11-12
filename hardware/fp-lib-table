@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Regen_Lib")(type "KiCad")(uri "${KIPRJMOD}/Regen_Lib.pretty")(options "")(descr "Project parts"))
+)

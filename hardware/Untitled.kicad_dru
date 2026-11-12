@@ -1,0 +1,11 @@
+(version 1)
+(rule "POWER clearance at IC fanout"
+  (constraint clearance (min 0.2mm))
+  (condition "A.NetClass == 'POWER' && B.intersectsArea('U1_fanout')"))
+(rule "J1 silkscreen past the board edge (XT60 overhangs on purpose)"
+  (constraint silk_clearance)
+  (condition "(A.memberOfFootprint('J1') && B.Layer == 'Edge.Cuts') || (B.memberOfFootprint('J1') && A.Layer == 'Edge.Cuts')")
+  (severity ignore))
+(rule "PTH pad annular ring (JLCPCB 2 oz minimum is 0.254 mm)"
+  (constraint annular_width (min 0.25mm))
+  (condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'"))

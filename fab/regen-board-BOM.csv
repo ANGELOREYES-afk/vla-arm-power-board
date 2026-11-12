@@ -1,0 +1,56 @@
+Item,Designator,Qty,Value,Description,Manufacturer,Manufacturer part #,Package,Type,Notes
+1,U1,1,LM5050-1,"High-side OR-ing FET controller, TSOT-23-6",Texas Instruments,LM5050MK-1/NOPB,TSOT-23-6,SMD,
+2,U2,1,R-78HB12-0.5,"DC/DC 17-72 V in, 12 V 0.5 A out, SIP3",RECOM,R-78HB12-0.5,Converter_DCDC_RECOM_R-78HB-0.5_THT,THT,
+3,U3,1,LM393,"Dual comparator, SOIC-8",Texas Instruments,LM393DR,SOIC-8_3.9x4.9mm_P1.27mm,SMD,
+4,U4,1,TL431DBZ,"Adjustable shunt reference, SOT-23",Texas Instruments,TL431AIDBZR,SOT-23,SMD,
+5,U5,1,UCC27517DBVR,"Low-side gate driver 4 A, SOT-23-5",Texas Instruments,UCC27517DBVR,SOT-23-5,SMD,
+6,U6,1,TPS48111-Q1,"High-side driver with precharge, VSSOP-19 (DGX)",Texas Instruments,TPS48111LQDGXRQ1,TI_DGX0019A_VSSOP-19_3x5.1mm_P0.5mm,SMD,Confirm orderable suffix with TI
+7,"Q1, Q4",2,CSD19536KTT,"N-MOSFET 100 V, 2.0 mOhm, D2PAK",Texas Instruments,CSD19536KTTT,TO-263-2,SMD,Main switch and ideal-diode FET
+8,Q2,1,IRFB4110,"N-MOSFET 100 V 180 A, TO-220",Infineon,IRFB4110PBF,TO-220-3_Vertical,THT,Brake FET; mount on heatsink
+9,Q3,1,QM6006D,"N-MOSFET 60 V 35 A, TO-252",UBIQ,QM6006D,TO-252-2,SMD,Brake flag open-drain
+10,Q5,1,IRFR120N,"N-MOSFET 100 V 9.4 A, DPAK",Infineon,IRFR120NTRPBF,TO-252-2,SMD,Precharge FET
+11,D1,1,SMCJ43A,"TVS diode, 43 V standoff, 1500 W, unidirectional",Littelfuse,SMCJ43A,D_SMC,SMD,
+12,D2,1,MUR1520,"Ultrafast rectifier, 200 V 15 A, TO-220AC",onsemi,MUR1520G,TO-220-2_Vertical,THT,Brake freewheel diode
+13,D3,1,PWR,LED green 0603,any,,0603,SMD,Power indicator
+14,D5,1,B1100,"Schottky diode, 100 V 1 A",Diodes Inc,B1100-13-F,D_SMA,SMD,
+15,D6,1,SMBJ43A,"TVS diode, 43 V standoff, 600 W, unidirectional",Littelfuse,SMBJ43A,D_SMB,SMD,
+16,D7,1,BAT54WS,"Schottky diode, 30 V 200 mA",Diodes Inc,BAT54WS-7-F,D_SOD-323,SMD,
+17,F1,1,25A 58V,"MINI blade fuse holder, PCB mount, 30 A",Keystone,3568,Fuseholder_Blade_Mini_Keystone_3568,THT,Fuse ordered separately: Littelfuse 0997025.WXN (25 A 58 VDC MINI)
+18,J1,1,XT60PW-M  PSU in,"XT60 male, right-angle PCB mount",AMASS,XT60PW-M,AMASS_XT60PW-M_1x02_P7.20mm_Horizontal_D2.9mm,THT,
+19,"J3, J5, J7",3,XT30PW-F,"XT30 female, right-angle PCB mount",AMASS,XT30PW-F,AMASS_XT30PW-F_1x02_P2.50mm_Horizontal_SupportPad1.6mm,THT,
+20,J9,1,Brake R (VBUS),Solder pad for brake-resistor lead (no part),-,,SolderWire-1.5sqmm_1x01_D1.7mm_OD3mm,THT,Do not place: wire soldered at install
+21,J10,1,Brake R (FET),Solder pad for brake-resistor lead (no part),-,,SolderWire-1.5sqmm_1x01_D1.7mm_OD3mm,THT,Do not place: wire soldered at install
+22,J11,1,VBUS_ADC,1-pin header 2.54 mm,any,,PinHeader_1x01_P2.54mm_Vertical,THT,
+23,J12,1,BRAKE_FLAG_N,1-pin header 2.54 mm,any,,PinHeader_1x01_P2.54mm_Vertical,THT,
+24,C1,1,100nF,"Ceramic capacitor 100nF, 100 V (sits on the 36 V bus), X7R, 0805",any,,0805,SMD,
+25,"C2, C3, C4, C5",4,1000uF 100V,"Aluminium electrolytic 1000uF 100V, low ESR, 18.0 mm dia, 7.50 mm pitch, 105 °C",any,,CP_Radial_D18.0mm_P7.50mm,THT,
+26,"C6, C7, C8",3,4.7uF 100V,"Ceramic capacitor 4.7uF, 100 V, X7R, 1210",any,,1210,SMD,
+27,C9,1,2.2uF 100V,"Ceramic capacitor 2.2uF, 100 V, X7R, 1210",any,,1210,SMD,
+28,C10,1,10uF,"Ceramic capacitor 10uF, 25 V, X7R, 0805",any,,0805,SMD,
+29,C11,1,1uF,"Ceramic capacitor 1uF, 25 V, X7R, 0603",any,,0603,SMD,
+30,C12,1,1nF,"Ceramic capacitor 1nF, 50 V, X7R, 0603",any,,0603,SMD,
+31,"C13, C15",2,100nF,"Ceramic capacitor 100nF, 25 V, X7R, 0603",any,,0603,SMD,
+32,"C16, C18",2,100nF 100V,"Ceramic capacitor 100nF, 100 V, X7R, 0805",any,,0805,SMD,
+33,C17,1,2.2uF 25V,"Ceramic capacitor 2.2uF, 25 V, X7R, 0805",any,,0805,SMD,
+34,C19,1,1uF 100V,"Ceramic capacitor 1uF, 100 V, X7R, 1206",any,,1206,SMD,
+35,C20,1,47uF 100V,"Aluminium electrolytic 47uF 100V, low ESR, 10.0 mm dia, 5.00 mm pitch, 105 °C",any,,CP_Radial_D10.0mm_P5.00mm,THT,
+36,"R1, R18, R19, R20",4,100ohm,"Thick-film resistor 100ohm, 1%, 0.1 W, 0603",any,,0603,SMD,
+37,"R2, R6, R13",3,4.7k,"Thick-film resistor 4.7k, 1%, 0.1 W, 0603",any,,0603,SMD,
+38,R3,1,150k,"Thick-film resistor 150k, 1%, 0.125 W, 0805",any,,0805,SMD,
+39,R4,1,9.53k,"Thick-film resistor 9.53k, 1%, 0.1 W, 0603",any,,0603,SMD,
+40,R5,1,909k,"Thick-film resistor 909k, 1%, 0.1 W, 0603",any,,0603,SMD,
+41,R7,1,10R,"Thick-film resistor 10R, 1%, 0.125 W, 0805",any,,0805,SMD,
+42,"R8, R10, R26, R29",4,10k,"Thick-film resistor 10k, 1%, 0.1 W, 0603",any,,0603,SMD,
+43,R9,1,232k,"Thick-film resistor 232k, 1%, 0.125 W, 0805",any,,0805,SMD,
+44,"R12, R14",2,1k,"Thick-film resistor 1k, 1%, 0.1 W, 0603",any,,0603,SMD,
+45,"R15, R31",2,PTC 60R,"PTC thermistor 60 Ohm, 500 VDC, 150 J",Vishay,PTCEL13R600LBE,PTC_Disc_D13.5mm_T7mm_P5mm,THT,Precharge resistors
+46,R16,1,100k,"Thick-film resistor 100k, 1%, 0.1 W, 0603",any,,0603,SMD,
+47,R17,1,10ohm,"Thick-film resistor 10ohm, 1%, 0.1 W, 0603",any,,0603,SMD,
+48,R21,1,330k,"Thick-film resistor 330k, 1%, 0.125 W, 0805",any,,0805,SMD,
+49,R22,1,20.5k,"Thick-film resistor 20.5k, 1%, 0.1 W, 0603",any,,0603,SMD,
+50,"R23, R25, R27",3,100k,"Thick-film resistor 100k, 1%, 0.125 W, 0805",any,,0805,SMD,
+51,R24,1,15k,"Thick-film resistor 15k, 1%, 0.1 W, 0603",any,,0603,SMD,
+52,R28,1,5.76k,"Thick-film resistor 5.76k, 1%, 0.1 W, 0603",any,,0603,SMD,
+53,R30,1,1M,"Thick-film resistor 1M, 1%, 0.1 W, 0603",any,,0603,SMD,
+54,RV1,1,500,"Trimmer 500 Ohm, 25-turn, top adjust",Bourns,3296W-1-501LF,Potentiometer_Bourns_3296W_Vertical,THT,Sets brake threshold
+55,"TP1, TP2, TP3, TP4, TP5, TP6",6,5001,Miniature PC test point,Keystone,5001,TestPoint_Keystone_5000-5004_Miniature,THT,
